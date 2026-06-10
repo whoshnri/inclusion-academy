@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@theme {
+  --color-navy: #16324f;
+  --color-green: #1b7f5c;
+  --color-gold: #d6a84f;
+  --color-grey: #f5f7f8;
+  --color-ink: #16324f;
+  --color-muted: rgba(22, 50, 79, 0.72);
+  --color-line: #f5f7f8;
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Montserrat", sans-serif;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+body {
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  line-height: 1.12;
+}
