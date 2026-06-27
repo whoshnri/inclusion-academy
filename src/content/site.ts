@@ -1,153 +1,70 @@
-export const faqItems = [
-  {
-    question: "What is an Inclusion Health Check?",
-    answer:
-      "It is a structured assessment of your organisation's current approach to inclusion. We review strengths, gaps, risks and opportunities, then provide prioritised recommendations and a practical implementation roadmap.",
-  },
-  {
-    question: "Who is the Health Check designed for?",
-    answer:
-      "It is designed for schools, NGOs, charities, healthcare providers, community organisations, public sector bodies and employers that want to strengthen inclusive practice and improve outcomes.",
-  },
-  {
-    question: "How long does an assessment take?",
-    answer:
-      "Timelines depend on your organisation's size, scope and stakeholder groups. During the discovery conversation, we agree a clear schedule that gives the assessment enough depth while respecting operational priorities.",
-  },
-  {
-    question: "What does the assessment involve?",
-    answer:
-      "Every engagement includes leadership conversations, document review, stakeholder feedback, gap analysis, risk assessment, prioritised recommendations and an implementation roadmap.",
-  },
-  {
-    question: "Which documents will you review?",
-    answer:
-      "The document list is agreed with you and may include relevant policies, strategies, communications, programme materials, feedback data and existing action plans. We only request evidence that supports the agreed scope.",
-  },
-  {
-    question: "How are staff and stakeholders involved?",
-    answer:
-      "We agree the right mix of conversations, feedback activities and engagement sessions with your leadership team. The aim is to understand lived experience, implementation barriers and practical opportunities for improvement.",
-  },
-  {
-    question: "Is stakeholder feedback confidential?",
-    answer:
-      "We agree confidentiality and reporting arrangements before the assessment begins. Findings are presented in a way that supports honest insight, responsible governance and constructive action.",
-  },
-  {
-    question: "What will we receive at the end?",
-    answer:
-      "You receive a clear account of strengths, gaps and risks, together with prioritised recommendations and a practical implementation roadmap. We also discuss the findings with your leadership team.",
-  },
-  {
-    question: "Does the Health Check only assess compliance?",
-    answer:
-      "No. Compliance can form part of the context, but the Health Check focuses on implementation, culture, behaviours, systems, engagement and accountability.",
-  },
-  {
-    question: "Can Inclusion Academy support implementation?",
-    answer:
-      "Yes. Following the assessment, we can discuss leadership development, team workshops, engagement frameworks and change support aligned with your priorities.",
-  },
-  {
-    question: "How do we get started?",
-    answer:
-      "Book a Discovery Conversation. We will discuss your context, priorities, intended outcomes and the most useful scope for your organisation.",
-  },
-] as const;
-
 export const serviceGroups = [
   {
     id: "schools",
-    eyebrow: "For schools",
-    title: "Inclusive schools",
+    eyebrow: "Education Practice",
+    title: "Education Practice",
     items: [
       {
-        title: "Inclusive Schools Review",
+        title: "School Improvement Review",
         description:
-          "A structured assessment of leadership, culture, parent engagement, communication, SEND provision and inclusive practice.",
+          "A structured ten-day independent review of your school's leadership, teaching practice, learner support, parent partnerships, safeguarding and culture. You leave with a clear picture of what is working, where the risks sit and exactly where to focus first.",
       },
       {
-        title: "Parent Engagement and Trust Review",
+        title: "Parent Partnership Programme",
         description:
-          "Helping schools strengthen relationships with families, improve communication and reduce conflict.",
+          "A practical review of how your school communicates and works with parents, identifying where trust has broken down and what needs to change. You leave with clear communication standards, an escalation framework and a parent engagement strategy your staff can implement immediately.",
       },
       {
-        title: "Leadership Development",
+        title: "Supporting Every Learner Programme",
         description:
-          "Supporting school leaders to create cultures where inclusion becomes part of everyday decision-making.",
-      },
-      {
-        title: "Staff Development Workshops",
-        description:
-          "Practical training designed to increase confidence and capability when supporting diverse learners and engaging with families.",
+          "A focused review of how your school currently supports children who learn differently, combined with practical support to strengthen staff capability. You leave with classroom strategies, individual support recommendations and a leadership action plan that helps improve learner outcomes and reduces unnecessary exclusions.",
       },
     ],
   },
   {
     id: "ngos",
-    eyebrow: "For NGOs",
-    title: "Inclusive programmes",
+    eyebrow: "Social Impact Practice",
+    title: "Social Impact Practice",
     items: [
       {
-        title: "Inclusion Health Check",
+        title: "Programme Effectiveness Review",
         description:
-          "Assessing governance, programmes, community engagement and accessibility through an inclusion lens.",
+          "A structured review of how well your programmes are reaching the people they were designed to serve, where delivery is breaking down and why engagement varies. You leave with a performance dashboard, a gap analysis and a prioritised improvement plan your leadership team can act on.",
       },
       {
-        title: "Community Engagement Frameworks",
+        title: "Community Engagement Review",
         description:
-          "Helping organisations build meaningful relationships with the communities they serve.",
+          "An assessment of how communities currently experience your organisation, where trust is missing and what is preventing participation. You leave with a stakeholder map, a participation analysis and a practical engagement improvement plan.",
       },
       {
-        title: "Programme Design and Review",
+        title: "Programme Delivery Workshop",
         description:
-          "Supporting teams to embed inclusion throughout programme planning, delivery and evaluation.",
-      },
-      {
-        title: "Leadership and Team Development",
-        description:
-          "Building capability across staff teams and leadership groups.",
+          "A practical programme designed to strengthen consistency across field teams, improve community engagement and equip staff with practical tools they can apply immediately. You leave with a programme delivery guide, a community engagement toolkit and a 90-day implementation plan.",
       },
     ],
   },
   {
     id: "organisations",
-    eyebrow: "For organisations",
-    title: "Inclusive workplaces",
+    eyebrow: "Organisation Development Practice",
+    title: "Organisation Development Practice",
     items: [
       {
-        title: "Workplace Inclusion Review",
+        title: "Organisation Performance Review",
         description:
-          "Assessing organisational culture, employee experience, accessibility and leadership capability.",
+          "A structured review of the leadership, culture and people issues affecting organisational performance, identifying root causes rather than surface symptoms. You leave with an executive summary, a performance dashboard and a priority improvement plan your leadership team can begin acting on immediately.",
       },
       {
-        title: "Inclusive Leadership Development",
+        title: "Leadership Effectiveness Review",
         description:
-          "Equipping leaders with practical tools to create inclusive teams and cultures.",
+          "An independent assessment of leadership capability across your organisation, identifying strengths, risks, behavioural patterns and development priorities. You leave with a leadership capability summary, executive feedback and a 90-day leadership action plan.",
       },
       {
-        title: "Culture and Engagement Assessments",
+        title: "Workplace Experience Workshop",
         description:
-          "Understanding employee experiences and identifying opportunities for improvement.",
-      },
-      {
-        title: "Change and Transformation Support",
-        description:
-          "Helping organisations manage change in ways that strengthen inclusion and engagement.",
+          "A facilitated programme that strengthens communication, teamwork and leadership consistency across the organisation. You leave with a practical team action plan and a 90-day implementation guide.",
       },
     ],
   },
-] as const;
-
-export const healthCheckIncludes = [
-  "Leadership conversations",
-  "Document review",
-  "Stakeholder feedback",
-  "Gap analysis",
-  "Risk assessment",
-  "Prioritised recommendations",
-  "Implementation roadmap",
 ] as const;
 
 export const contactDiscussionPoints = [
@@ -155,5 +72,5 @@ export const contactDiscussionPoints = [
   "Current strengths and challenges",
   "The people and communities involved",
   "The outcomes you want to improve",
-  "Whether an Inclusion Health Check is the right starting point",
+  "Whether a School Improvement Review or custom engagement is the right starting point",
 ] as const;

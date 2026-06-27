@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "lenis/dist/lenis.css";
 
+:root {
+  font-size: 85%;
+}
+
 @theme {
   --color-navy: #16324f;
   --color-green: #1b7f5c;
@@ -34,4 +38,10 @@ h3,
 h4 {
   font-family: var(--font-display);
   line-height: 1.12;
+}
+
+button,
+.button
+{
+  border-radius: 12px !important;
 }

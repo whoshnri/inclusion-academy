@@ -60,7 +60,7 @@ export function Header() {
 
   const mobileLinkClass = (href: string) =>
     cn(
-      "block rounded-xl px-4 py-3.5 text-lg font-bold transition-all duration-300 ease-out",
+      "block rounded-none px-4 py-3.5 text-lg font-bold transition-all duration-300 ease-out",
       darkMobileMenu
         ? cn(
             "text-white/90 hover:bg-white/10 hover:text-white",

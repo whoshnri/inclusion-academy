@@ -68,7 +68,6 @@ export function CookieConsent() {
           <Button
             type="button"
             variant="light"
-            shape="pill"
             className="w-full shrink-0 sm:w-auto"
             onClick={accept}
           >

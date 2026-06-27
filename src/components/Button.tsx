@@ -25,7 +25,6 @@ const variantClasses: Record<ButtonVariant, string> = {
 type ButtonProps = {
   href?: string;
   variant?: ButtonVariant;
-  shape?: "default" | "pill";
   className?: string;
   children: React.ReactNode;
   type?: "button" | "submit";
@@ -37,7 +36,6 @@ type ButtonProps = {
 export function Button({
   href,
   variant = "primary",
-  shape = "default",
   className,
   children,
   type = "button",
@@ -46,8 +44,7 @@ export function Button({
   tabIndex,
 }: ButtonProps) {
   const classes = cn(
-    "inline-flex items-center justify-center gap-2 border-2 px-4 py-3 text-sm font-bold transition-colors sm:px-5 sm:py-3.5 sm:text-base",
-    shape === "pill" && "rounded-full px-6 sm:px-7",
+    "inline-flex items-center button justify-center gap-2 border px-4 py-3 text-sm font-bold transition-colors sm:px-5 sm:py-3.5 sm:text-base",
     variantClasses[variant],
     className,
   );

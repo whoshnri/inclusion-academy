@@ -7,7 +7,6 @@ import { footerExploreLinks } from "@/lib/navigation";
 export function Footer() {
   return (
     <footer className="bg-navy text-white/75">
-      <div className="h-1 bg-gold" aria-hidden />
 
       <Container className="py-14 sm:py-16 lg:py-20">
         <div className="grid gap-10 sm:gap-12 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr] lg:gap-16">

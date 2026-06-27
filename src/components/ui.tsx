@@ -3,7 +3,6 @@ import { Container } from "@/components/Container";
 import { cn } from "@/lib/utils";
 
 type PageHeroProps = {
-  eyebrow: string;
   title: string;
   lead: string;
 };
